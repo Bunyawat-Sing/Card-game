@@ -123,7 +123,7 @@ export default function CardGame() {
           {botHand.map((card) => (
             <div
               key={card.id}
-              className="w-16 h-24 bg-red-700 border border-white rounded-lg shadow-md flex items-center justify-center"
+              className="w-16 h-24 bg-red-800 border border-white rounded-lg shadow-md flex items-center justify-center"
             ></div>
           ))}
         </div>
